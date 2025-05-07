@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria - PAN MARQUES</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #ffcc66; padding: 20px; text-align: center; }
+        nav a { margin: 0 15px; color: #333; text-decoration: none; }
+        section { padding: 20px; }
+        footer { background-color: #333; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+        .card { background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 15px; margin: 10px 0; }
+        .gallery img { width: 100%; height: auto; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Padaria Ouro Preto</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#about">Sobre Nós</a>
+            <a href="#menu">Cardápio</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à Padaria Ouro Preto!</h2>
+        <p>Delícias fresquinhas todos os dias. Venha conferir!</p>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Nossa padaria está há anos trazendo qualidade e sabor para a comunidade. Valorizamos ingredientes frescos e atendimento de qualidade.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Cardápio</h2>
+        <div class="card">Pão Francês - R$ 1,50</div>
+        <div class="card">Bolo de Rolo - R$ 25,00</div>
+        <div class="card">Coxinha - R$ 5,00</div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="pao.jpg" alt="Pão">
+            <img src="bolo.jpg" alt="Bolo de Rolo">
+            <img src="coxinha.jpg" alt="Coxinha">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Rua Esquilo, nº 41, Bairro Ouro Preto, Olinda-PE</p>
+        <p>&copy; 2025 Padaria Ouro Preto</p>
+    </footer>
+</body>
+</html>
